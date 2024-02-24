@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """ FizzBuzz
-    Change of logic if (i % 3) == 0 and (i % 5) == 0:
 """
 import sys
 
@@ -27,6 +26,7 @@ def fizzbuzz(n):
         else:
             tmp_result.append(str(i))
     print(" ".join(tmp_result))
+
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
